@@ -1,0 +1,16 @@
+PODS:
+  - FZVideoRecording (0.1.0)
+
+DEPENDENCIES:
+  - FZVideoRecording (from `../`)
+
+EXTERNAL SOURCES:
+  FZVideoRecording:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZVideoRecording: 715af3529a7a1112be24a8d23a76a383a597cc6e
+
+PODFILE CHECKSUM: 71d1d29ae4ff38195516eb314f1567f735103e9a
+
+COCOAPODS: 1.8.0.beta.1

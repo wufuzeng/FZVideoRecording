@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2944B8D0A80EE36974BE6591EA840DBA /* Pods-FZVideoRecording_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6F10E6C24E5A3EC96E97ACA2636C25 /* Pods-FZVideoRecording_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B326EC8D067DAEE3684AFDC42ADB9B2 /* Pods-FZVideoRecording_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CC833CD38EDADCDF75ECF4B18342B7 /* Pods-FZVideoRecording_Tests-dummy.m */; };
+		3720A05F163769F60626E125317C165B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D032C882AD1CE50131FFF28C2B682BD /* ReplaceMe.m */; };
+		608B499557FA1B8FF234232383BAED93 /* FZVideoRecording-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B599952C38F95FB7B88301A6CEA31DC /* FZVideoRecording-dummy.m */; };
+		78F7CD8BE2CAE3D71595AC0CB2491870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		97124E31E0ADA7DD5B59F6965E053CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE1222BD68E79F3213A65B9D325F588C /* Pods-FZVideoRecording_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F8C8C0E907E8A7C9B0AB07FB929DC /* Pods-FZVideoRecording_Example-dummy.m */; };
+		BFAE5216080E678A37F6A22212B56A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C206ED4FC985CD5C4EE330BA94F822F9 /* FZVideoRecording-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0ACDC8B0A8B7029187FF9AB7109EC2 /* FZVideoRecording-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D15A2C7DE32FDE5E0D0A6F6DB1F995B8 /* Pods-FZVideoRecording_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE4FA7DFE03E2804A869736AE28DC49 /* Pods-FZVideoRecording_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A1492B77FC14F3F23E842F3A487F44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E04E39BB09553D377659BCB8D00D84;
+			remoteInfo = "Pods-FZVideoRecording_Example";
+		};
+		9B45E717C07AF69EE3D7A639CEE082BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D64E58C17BD168530D78731B014608;
+			remoteInfo = FZVideoRecording;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A68420A0A41EE52FDCC63EC076A054 /* Pods-FZVideoRecording_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZVideoRecording_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		07814680835F34FE30A46E692C976AD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		080C941AD7C8B21CBE604860E076EFCE /* FZVideoRecording.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZVideoRecording.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10D1256945F357B48FD52FD43F2DB4F8 /* FZVideoRecording-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZVideoRecording-Info.plist"; sourceTree = "<group>"; };
+		136800346071261065DEC990238D3ECB /* Pods-FZVideoRecording_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZVideoRecording_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1ABF98FCECA1FC24A5DD357B122C6A35 /* Pods-FZVideoRecording_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZVideoRecording_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		21E73CD765378AAAF7497C8F18CDDEE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		280D1AFCCD48E1CA702E7E113E869D25 /* Pods-FZVideoRecording_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZVideoRecording_Example-Info.plist"; sourceTree = "<group>"; };
+		2B599952C38F95FB7B88301A6CEA31DC /* FZVideoRecording-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZVideoRecording-dummy.m"; sourceTree = "<group>"; };
+		2D032C882AD1CE50131FFF28C2B682BD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FZVideoRecording/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DE4FA7DFE03E2804A869736AE28DC49 /* Pods-FZVideoRecording_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZVideoRecording_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E57BF677DDFDB3FF00A3538AFDD5BD1 /* Pods-FZVideoRecording_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZVideoRecording_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59CC833CD38EDADCDF75ECF4B18342B7 /* Pods-FZVideoRecording_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZVideoRecording_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E58D3B1D3B74B5A49DCA3152B5FD317 /* Pods_FZVideoRecording_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZVideoRecording_Tests.framework; path = "Pods-FZVideoRecording_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63596374A02AFE9A2F53EFFF051ACAFB /* Pods-FZVideoRecording_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZVideoRecording_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6BA71DF9013B2A6894D2A28BFE0E4B3B /* Pods-FZVideoRecording_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZVideoRecording_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E7FADE0DC4ED39415B7E969096941ED /* Pods-FZVideoRecording_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZVideoRecording_Tests-Info.plist"; sourceTree = "<group>"; };
+		6F6F10E6C24E5A3EC96E97ACA2636C25 /* Pods-FZVideoRecording_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZVideoRecording_Tests-umbrella.h"; sourceTree = "<group>"; };
+		72BD173792F7C6490A0E006EE4868126 /* Pods-FZVideoRecording_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZVideoRecording_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4374D7B07A4C06858569881C14F2DB3 /* Pods-FZVideoRecording_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZVideoRecording_Example.modulemap"; sourceTree = "<group>"; };
+		B0B44D80781F3A53EF6A1BE919A60DD7 /* FZVideoRecording-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZVideoRecording-prefix.pch"; sourceTree = "<group>"; };
+		BB7D8245CF0DBCBBE9F1FFE15439D380 /* FZVideoRecording.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZVideoRecording.framework; path = FZVideoRecording.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F50005B1A732A07A36E384631859AB /* Pods-FZVideoRecording_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZVideoRecording_Tests.modulemap"; sourceTree = "<group>"; };
+		C544C0A9A688AB334A5DFC52D46436C2 /* Pods-FZVideoRecording_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZVideoRecording_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB8F8C8C0E907E8A7C9B0AB07FB929DC /* Pods-FZVideoRecording_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZVideoRecording_Example-dummy.m"; sourceTree = "<group>"; };
+		E863A09D5696D04C076F16C22A490E32 /* FZVideoRecording.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZVideoRecording.xcconfig; sourceTree = "<group>"; };
+		EA0ACDC8B0A8B7029187FF9AB7109EC2 /* FZVideoRecording-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZVideoRecording-umbrella.h"; sourceTree = "<group>"; };
+		F55DA46A9815A1478C7F7EF064C5B079 /* FZVideoRecording.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZVideoRecording.modulemap; sourceTree = "<group>"; };
+		FB4EB5632C644B8511888D89A410BC1F /* Pods-FZVideoRecording_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZVideoRecording_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCE772E77482C2203B38EB0B2C00B678 /* Pods_FZVideoRecording_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZVideoRecording_Example.framework; path = "Pods-FZVideoRecording_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1995FD1D65C4AC9CF00B4CA5D058AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAE5216080E678A37F6A22212B56A8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5660053582B9724C8B81EF25458BE9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97124E31E0ADA7DD5B59F6965E053CF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6092E786814F61E4E45B1D6EF05216FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F7CD8BE2CAE3D71595AC0CB2491870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00010CAB0368AC1AD7A1A597C477F65C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				080C941AD7C8B21CBE604860E076EFCE /* FZVideoRecording.podspec */,
+				07814680835F34FE30A46E692C976AD0 /* LICENSE */,
+				21E73CD765378AAAF7497C8F18CDDEE3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		060E7518AA1E87E593CDBD4E21D56891 /* Pods-FZVideoRecording_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4374D7B07A4C06858569881C14F2DB3 /* Pods-FZVideoRecording_Example.modulemap */,
+				C544C0A9A688AB334A5DFC52D46436C2 /* Pods-FZVideoRecording_Example-acknowledgements.markdown */,
+				4E57BF677DDFDB3FF00A3538AFDD5BD1 /* Pods-FZVideoRecording_Example-acknowledgements.plist */,
+				DB8F8C8C0E907E8A7C9B0AB07FB929DC /* Pods-FZVideoRecording_Example-dummy.m */,
+				63596374A02AFE9A2F53EFFF051ACAFB /* Pods-FZVideoRecording_Example-frameworks.sh */,
+				280D1AFCCD48E1CA702E7E113E869D25 /* Pods-FZVideoRecording_Example-Info.plist */,
+				4DE4FA7DFE03E2804A869736AE28DC49 /* Pods-FZVideoRecording_Example-umbrella.h */,
+				05A68420A0A41EE52FDCC63EC076A054 /* Pods-FZVideoRecording_Example.debug.xcconfig */,
+				136800346071261065DEC990238D3ECB /* Pods-FZVideoRecording_Example.release.xcconfig */,
+			);
+			name = "Pods-FZVideoRecording_Example";
+			path = "Target Support Files/Pods-FZVideoRecording_Example";
+			sourceTree = "<group>";
+		};
+		22FA331F083A82C6E35D3730D055BFFB /* FZVideoRecording */ = {
+			isa = PBXGroup;
+			children = (
+				2D032C882AD1CE50131FFF28C2B682BD /* ReplaceMe.m */,
+				00010CAB0368AC1AD7A1A597C477F65C /* Pod */,
+				8374196A7F9016B6A712B82094E6FD16 /* Support Files */,
+			);
+			name = FZVideoRecording;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5EA2BDF2A801DD7123235E8A1ABDD5B3 /* Pods-FZVideoRecording_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F50005B1A732A07A36E384631859AB /* Pods-FZVideoRecording_Tests.modulemap */,
+				6BA71DF9013B2A6894D2A28BFE0E4B3B /* Pods-FZVideoRecording_Tests-acknowledgements.markdown */,
+				FB4EB5632C644B8511888D89A410BC1F /* Pods-FZVideoRecording_Tests-acknowledgements.plist */,
+				59CC833CD38EDADCDF75ECF4B18342B7 /* Pods-FZVideoRecording_Tests-dummy.m */,
+				6E7FADE0DC4ED39415B7E969096941ED /* Pods-FZVideoRecording_Tests-Info.plist */,
+				6F6F10E6C24E5A3EC96E97ACA2636C25 /* Pods-FZVideoRecording_Tests-umbrella.h */,
+				1ABF98FCECA1FC24A5DD357B122C6A35 /* Pods-FZVideoRecording_Tests.debug.xcconfig */,
+				72BD173792F7C6490A0E006EE4868126 /* Pods-FZVideoRecording_Tests.release.xcconfig */,
+			);
+			name = "Pods-FZVideoRecording_Tests";
+			path = "Target Support Files/Pods-FZVideoRecording_Tests";
+			sourceTree = "<group>";
+		};
+		8374196A7F9016B6A712B82094E6FD16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55DA46A9815A1478C7F7EF064C5B079 /* FZVideoRecording.modulemap */,
+				E863A09D5696D04C076F16C22A490E32 /* FZVideoRecording.xcconfig */,
+				2B599952C38F95FB7B88301A6CEA31DC /* FZVideoRecording-dummy.m */,
+				10D1256945F357B48FD52FD43F2DB4F8 /* FZVideoRecording-Info.plist */,
+				B0B44D80781F3A53EF6A1BE919A60DD7 /* FZVideoRecording-prefix.pch */,
+				EA0ACDC8B0A8B7029187FF9AB7109EC2 /* FZVideoRecording-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZVideoRecording";
+			sourceTree = "<group>";
+		};
+		91FC3443F1B54C0AC15EAE529BC23080 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22FA331F083A82C6E35D3730D055BFFB /* FZVideoRecording */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8C89A4990BA719833A938ED94836DAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				060E7518AA1E87E593CDBD4E21D56891 /* Pods-FZVideoRecording_Example */,
+				5EA2BDF2A801DD7123235E8A1ABDD5B3 /* Pods-FZVideoRecording_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91FC3443F1B54C0AC15EAE529BC23080 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F261A560F1AA2385428B4F00702FB64C /* Products */,
+				A8C89A4990BA719833A938ED94836DAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F261A560F1AA2385428B4F00702FB64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D8245CF0DBCBBE9F1FFE15439D380 /* FZVideoRecording.framework */,
+				FCE772E77482C2203B38EB0B2C00B678 /* Pods_FZVideoRecording_Example.framework */,
+				5E58D3B1D3B74B5A49DCA3152B5FD317 /* Pods_FZVideoRecording_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39845BFDF12246C4FE1DE0A3A87C1CF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C206ED4FC985CD5C4EE330BA94F822F9 /* FZVideoRecording-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A24E53DA665AACFD9FBEE842971B892 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A2C7DE32FDE5E0D0A6F6DB1F995B8 /* Pods-FZVideoRecording_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FFE54E78DFCC0315C28711B7F79D66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2944B8D0A80EE36974BE6591EA840DBA /* Pods-FZVideoRecording_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24E04E39BB09553D377659BCB8D00D84 /* Pods-FZVideoRecording_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D42C2A6A80D271946A482E8D189D2A /* Build configuration list for PBXNativeTarget "Pods-FZVideoRecording_Example" */;
+			buildPhases = (
+				4A24E53DA665AACFD9FBEE842971B892 /* Headers */,
+				01987ED0FC403FAB4DC194DF71FF5877 /* Sources */,
+				2E1995FD1D65C4AC9CF00B4CA5D058AF /* Frameworks */,
+				429973573468A393D316724BBF4B83D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEFC26FE8DABEF2B73E074041ADD6DA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FZVideoRecording_Example";
+			productName = "Pods-FZVideoRecording_Example";
+			productReference = FCE772E77482C2203B38EB0B2C00B678 /* Pods_FZVideoRecording_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7345E46102475A47E8692E12C003B90E /* Pods-FZVideoRecording_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31B76921AD8BDFB8E3063282968C707 /* Build configuration list for PBXNativeTarget "Pods-FZVideoRecording_Tests" */;
+			buildPhases = (
+				78FFE54E78DFCC0315C28711B7F79D66 /* Headers */,
+				37417EBB3D9E5C20DA6A7E747027CAAF /* Sources */,
+				5660053582B9724C8B81EF25458BE9EC /* Frameworks */,
+				573101D95B7F8B9011D78B059D569B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B3B154C754A162BE911E25803ECDF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FZVideoRecording_Tests";
+			productName = "Pods-FZVideoRecording_Tests";
+			productReference = 5E58D3B1D3B74B5A49DCA3152B5FD317 /* Pods_FZVideoRecording_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D64E58C17BD168530D78731B014608 /* FZVideoRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C4447B2DE85A24475FB2D42D2F0B4 /* Build configuration list for PBXNativeTarget "FZVideoRecording" */;
+			buildPhases = (
+				39845BFDF12246C4FE1DE0A3A87C1CF1 /* Headers */,
+				3CF79B2735A7F2152E51C61725A25631 /* Sources */,
+				6092E786814F61E4E45B1D6EF05216FA /* Frameworks */,
+				D51D663BF180A6E12C5A81040A58BA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZVideoRecording;
+			productName = FZVideoRecording;
+			productReference = BB7D8245CF0DBCBBE9F1FFE15439D380 /* FZVideoRecording.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F261A560F1AA2385428B4F00702FB64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D64E58C17BD168530D78731B014608 /* FZVideoRecording */,
+				24E04E39BB09553D377659BCB8D00D84 /* Pods-FZVideoRecording_Example */,
+				7345E46102475A47E8692E12C003B90E /* Pods-FZVideoRecording_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		429973573468A393D316724BBF4B83D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573101D95B7F8B9011D78B059D569B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51D663BF180A6E12C5A81040A58BA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01987ED0FC403FAB4DC194DF71FF5877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1222BD68E79F3213A65B9D325F588C /* Pods-FZVideoRecording_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37417EBB3D9E5C20DA6A7E747027CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B326EC8D067DAEE3684AFDC42ADB9B2 /* Pods-FZVideoRecording_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF79B2735A7F2152E51C61725A25631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608B499557FA1B8FF234232383BAED93 /* FZVideoRecording-dummy.m in Sources */,
+				3720A05F163769F60626E125317C165B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEFC26FE8DABEF2B73E074041ADD6DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FZVideoRecording;
+			target = F7D64E58C17BD168530D78731B014608 /* FZVideoRecording */;
+			targetProxy = 9B45E717C07AF69EE3D7A639CEE082BE /* PBXContainerItemProxy */;
+		};
+		E6B3B154C754A162BE911E25803ECDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FZVideoRecording_Example";
+			target = 24E04E39BB09553D377659BCB8D00D84 /* Pods-FZVideoRecording_Example */;
+			targetProxy = 0A1492B77FC14F3F23E842F3A487F44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		115788FDD6BD793DA8B26EE1A67E979E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BD173792F7C6490A0E006EE4868126 /* Pods-FZVideoRecording_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZVideoRecording_Tests/Pods-FZVideoRecording_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZVideoRecording_Tests/Pods-FZVideoRecording_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BDFF86B76CB85808064101F085558A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABF98FCECA1FC24A5DD357B122C6A35 /* Pods-FZVideoRecording_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZVideoRecording_Tests/Pods-FZVideoRecording_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZVideoRecording_Tests/Pods-FZVideoRecording_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCF2366A81990CFE7A81D28ED656E17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A68420A0A41EE52FDCC63EC076A054 /* Pods-FZVideoRecording_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZVideoRecording_Example/Pods-FZVideoRecording_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZVideoRecording_Example/Pods-FZVideoRecording_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D67CEE3086C08D1230D2BA7E03BBB553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E863A09D5696D04C076F16C22A490E32 /* FZVideoRecording.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZVideoRecording/FZVideoRecording-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZVideoRecording/FZVideoRecording-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZVideoRecording/FZVideoRecording.modulemap";
+				PRODUCT_MODULE_NAME = FZVideoRecording;
+				PRODUCT_NAME = FZVideoRecording;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F33695CC455156082EA64E29AAED7347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136800346071261065DEC990238D3ECB /* Pods-FZVideoRecording_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZVideoRecording_Example/Pods-FZVideoRecording_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZVideoRecording_Example/Pods-FZVideoRecording_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F701E03B0B34DD49AE48F1D954FADEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E863A09D5696D04C076F16C22A490E32 /* FZVideoRecording.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZVideoRecording/FZVideoRecording-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZVideoRecording/FZVideoRecording-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZVideoRecording/FZVideoRecording.modulemap";
+				PRODUCT_MODULE_NAME = FZVideoRecording;
+				PRODUCT_NAME = FZVideoRecording;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C4447B2DE85A24475FB2D42D2F0B4 /* Build configuration list for PBXNativeTarget "FZVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CEE3086C08D1230D2BA7E03BBB553 /* Debug */,
+				F701E03B0B34DD49AE48F1D954FADEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D42C2A6A80D271946A482E8D189D2A /* Build configuration list for PBXNativeTarget "Pods-FZVideoRecording_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF2366A81990CFE7A81D28ED656E17D /* Debug */,
+				F33695CC455156082EA64E29AAED7347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31B76921AD8BDFB8E3063282968C707 /* Build configuration list for PBXNativeTarget "Pods-FZVideoRecording_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDFF86B76CB85808064101F085558A0 /* Debug */,
+				115788FDD6BD793DA8B26EE1A67E979E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
